@@ -1,0 +1,162 @@
+/*
+Theme Name: Les Cedres Marali
+Description: Custom theme for Les Cedres Marali 
+Version: 1.0
+*/
+
+.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+/**********************************************
+* General CSS
+***********************************************/
+
+body {
+	background-color:#ffffff;
+	background-image:url('images/main-bg.jpg');
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	color:#636262;
+	line-height:150%;
+}
+a{
+	color:#636262;
+}
+#container-outer{
+	width:996px;
+	margin:0 auto;
+	background-image:url('images/outer-bg.png');
+}
+#container{
+	width:986px;
+	margin:0 auto;
+	background-image:url('images/content-bg.jpg');
+	overflow: hidden;
+}
+#header{
+	width:986px;
+	height:181px;
+	background-image:url('images/header-bg.jpg');
+}
+#content{
+	padding:30px;
+}
+#footer-outer{
+	width:100%;
+	height:337px;
+	background-image:url('images/footer-side-bg.png');
+}
+#footer{
+	width:986px;
+	height:237px;
+	margin:0 auto;
+	background-image:url('images/content-footer-bg.jpg');
+	padding:100px 0 0 0;
+	color:#a68c64;
+	line-height:150%;
+}
+#footer a{
+	color:#a68c64;
+	text-decoration:none;
+}
+#footer a:hover{
+	color:#a68c64;
+	text-decoration:underline;
+}
+#footer h2{
+	font-size:20px;
+}
+#footer-box1{
+	float:left;
+	width:247px;
+	height:220px;
+	padding:0 30px 0 30px;
+	border-right:#867152 dashed 1px;
+}
+#footer-box2{
+	float:left;
+	width:307px;
+	height:220px;
+	padding:0 30px 0 30px;
+	border-right:#867152 dashed 1px;
+	text-align:center;
+}
+#footer-box3{
+	float:left;
+	width:247px;
+	height:220px;
+	padding:0 30px 0 30px;
+}
+
+h1{
+	color:#c41919;
+	font-size:24px;
+}
+.home-image{
+	float:right;
+	width:418px;
+	margin:0 0 0 30px;
+}
+
+#menu-container{
+	color:#0c180d;
+	display: inline-block;
+	float:right;
+	margin:148px 0 0 0;
+}
+
+#menu-container ul {
+	list-style-type: none;
+	margin:0 auto;
+}
+
+#menu-container li {
+	float: left;
+}
+
+#menu-container li a {
+	padding:0 10px 0 10px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #371C1C;
+}
+
+#menu-container li:before { content:' ~ '; }
+#menu-container li:first-child:before { content:''; }
+
+#copyright{
+	background-color:#412a05;
+	text-align:center;
+	height:28px;
+	padding:12px 0 0 0;
+	color:#cda16e;
+	font-size:12px;
+}
+img.left {
+	float:left;
+	padding:0 10px 10px 0;
+}
+
+
+img.right {
+	float:right;
+	padding:0 0 10px 10px;
+}
+
+img.center {
+	text-align:center;
+}
