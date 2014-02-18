@@ -22,6 +22,7 @@ function updateQuote() {
 	var photo_url_small;
 	var photo_url_medium;
 	var photo_url_large;
+     
 
 	// This piece of code check if the user wants to have
 	// unit in Meters or in Foot.
